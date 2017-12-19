@@ -1,0 +1,11 @@
+<h1>Welcome to Cheap Advisor</h1>
+<p>Today we are <%= Time.now %></p>
+<p>What do you wanna eat?</p>
+
+
+<form action="/restaurants" method="get">
+  <input type="text" name="food_type" placeholder="What kind of food?">
+  <input type="submit">
+</form>
+
+p>Check out <%= link_to "All our restaurants", restaurants_path %>
